@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DiskLight</string>
+    <string name="scan">Pindai</string>
+    <string name="cancel">Batal</string>
+    <string name="root_mode">Root</string>
+    <string name="about">Tentang</string>
+    <string name="up">Ke atas</string>
+    <string name="empty_folder">Folder kosong atau tidak dapat diakses</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- KDE Breeze Dark palette -->
+    <color name="breeze_bg">#232629</color>
+    <color name="breeze_panel">#2a2e32</color>
+    <color name="breeze_raised">#31363b</color>
+    <color name="breeze_raised_hover">#3a4046</color>
+    <color name="breeze_text">#eff0f1</color>
+    <color name="breeze_text_dim">#a1a9b1</color>
+    <color name="breeze_accent">#3daee9</color>
+    <color name="breeze_accent_dim">#1d5f7d</color>
+    <color name="breeze_danger">#da4453</color>
+    <color name="breeze_ok">#1cdc9a</color>
+    <color name="breeze_warning">#fdbc4b</color>
+    <color name="breeze_chart_bg">#1b1e20</color>
+</resources>

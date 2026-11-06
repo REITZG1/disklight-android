@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingStart="14dp"
+    android:paddingEnd="14dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/itemIcon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:padding="6dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/bg_icon_disc"
+        android:src="@drawable/ic_folder" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:maxLines="1"
+            android:text="nama"
+            android:textColor="@color/breeze_text"
+            android:textSize="13sp" />
+
+        <ProgressBar
+            android:id="@+id/itemBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:max="1000"
+            android:progressDrawable="@drawable/progress_bar_thin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical|end">
+
+        <TextView
+            android:id="@+id/itemSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="0 B"
+            android:textColor="@color/breeze_accent"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/itemShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:textColor="@color/breeze_text_dim"
+            android:textSize="11sp"
+            android:typeface="monospace" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="26dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memindai…"
+        android:textColor="@color/breeze_accent"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/scanTarget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ellipsize="middle"
+        android:maxLines="1"
+        android:text="/data"
+        android:textColor="@color/breeze_text_dim"
+        android:textSize="12sp"
+        android:typeface="monospace" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_marginTop="14dp"
+        android:indeterminate="true"
+        android:progressTint="@color/breeze_accent" />
+
+    <TextView
+        android:id="@+id/scanProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="0 file · 0 B"
+        android:textColor="@color/breeze_text"
+        android:textSize="12sp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/scanCancel"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/bg_chip"
+        android:text="@string/cancel"
+        android:textColor="@color/breeze_text" />
+</LinearLayout>

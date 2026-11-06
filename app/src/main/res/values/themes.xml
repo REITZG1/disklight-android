@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Filelight" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/breeze_bg</item>
+        <item name="android:statusBarColor">@color/breeze_panel</item>
+        <item name="android:navigationBarColor">@color/breeze_panel</item>
+        <item name="android:colorAccent">@color/breeze_accent</item>
+        <item name="android:textColorPrimary">@color/breeze_text</item>
+        <item name="android:textColorSecondary">@color/breeze_text_dim</item>
+    </style>
+
+    <style name="Filelight.Chip" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:background">@drawable/bg_chip</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textColor">#eff0f1</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="Filelight.Dialog" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:windowBackground">@color/breeze_panel</item>
+        <item name="android:colorAccent">@color/breeze_accent</item>
+        <item name="android:textColorPrimary">@color/breeze_text</item>
+        <item name="android:textColorSecondary">@color/breeze_text_dim</item>
+    </style>
+
+</resources>
