@@ -3,3 +3,7 @@ build/
 local.properties
 *.iml
 .idea/
+# Secrets rilis — JANGAN commit
+*.jks
+*.keystore
+release.keystore.properties
