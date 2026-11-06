@@ -754,8 +754,9 @@ class MainActivity : Activity() {
                     "• Daftar file/folder terbesar dengan persentase\n" +
                     "• Ketuk segmen grafik atau item untuk menelusuri\n" +
                     "• Tekan-tahan item (daftar atau grafik) untuk menghapus\n\n" +
-                    "Terinspirasi oleh KDE Filelight (GNU GPL v3.0). Aplikasi ini " +
-                    "adalah proyek independen dan tidak berafiliasi dengan KDE e.V.\n\n" +
+                    "Terinspirasi oleh KDE Filelight; aplikasi ini ditulis ulang " +
+                    "dari nol tanpa memakai kode GPL apa pun, berlisensi MIT. " +
+                    "Merupakan proyek independen dan tidak berafiliasi dengan KDE e.V.\n\n" +
                     "Versi 1.1.0"
             )
             .setPositiveButton("OK", null)

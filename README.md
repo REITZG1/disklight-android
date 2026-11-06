@@ -82,6 +82,8 @@ app/src/main/aidl/org/filelight/android/
 
 ## Lisensi
 
-Kode ditulis ulang dari nol. Terinspirasi oleh KDE Filelight (GNU GPL v3.0).
-Proyek ini adalah karya independen dan tidak berafiliasi dengan KDE e.V.
-Dependensi Shizuku: `dev.rikka.shizuku:api:13.1.5` / `provider:13.1.5` (Apache 2.0).
+**MIT License** — lihat berkas [LICENSE](LICENSE).
+
+Proyek ini ditulis ulang dari nol dan **tidak memakai kode GPL apa pun** (tidak ada kode KDE Filelight yang dipakai; hanya gagasan/visualisasi ring-nya saja yang terinspirasi). Proyek ini independen dan tidak berafiliasi dengan KDE e.V.
+
+Dependensi Shizuku (`dev.rikka.shizuku:api:13.1.5` / `provider:13.1.5`) berlisensi Apache 2.0 dan kompatibel dengan MIT.
